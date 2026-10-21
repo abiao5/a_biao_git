@@ -4,9 +4,11 @@ def fun(a:int, b:int) -> int :
         num += b
     return num
 
-a: int = 10
-b: int = 5
-res:int = fun(a,b)
 
-print(f"a x b = {res}")
+if __name__ == "__main__":
+    a: int = 10
+    b: int = 5
+    res:int = fun(a,b)
+
+    print(f"a x b = {res}")
 
