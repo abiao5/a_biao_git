@@ -15,3 +15,12 @@ Desktop.ini
 # 日志与临时文件
 *.log
 *.tmp
+
+# 编译产物
+*.exe
+*.o
+*.obj
+
+# Python 缓存
+__pycache__/
+*.pyc
